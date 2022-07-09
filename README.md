@@ -1,0 +1,2 @@
+# openstack
+Ghi chép openstack
