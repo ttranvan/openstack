@@ -1,4 +1,4 @@
-1. Openstack networking - Neutron
+#1. Openstack networking - Neutron
 Trong Openstack, Networking Service cung cấp cho người dùng API cho người dùng có thể cài đặt và định nghĩa các network. Code-name của Openstack Networking là neutron.
 
 Openstack networking service làm nhiệm vụ tạo và quản lý hạ tầng mạng ảo, bao gồm network, switch, subnet, router
@@ -15,7 +15,7 @@ Openstack dashboard : người dùng sử dụng để khởi tạo và quản l
 Openstack networking bao gồm các thành phần:
 
 API server:
-OpenStack Networking API bao gồm hỗ trợ Layer 2 networking và IP address management (IPAM), cũng như 1 phần mở rộng cho Layer 3 router cho phép routing giữa các Layer 2 networking. OpenStack Networking bao gồm 1 danh sách các plug-in cho phép tương tác với các công nghệ mạng mã nguồn mở khác nhau, bao gồm routers, virtual switches, và software-defined networking (SDN) controllers.
+OpenStack Networking API bao gồm hỗ trợ Layer 2 networking và IP address management (IPAM), cũng như 1 phần mở rộng cho Layer 3 router cho phép routing giữa các Layer #2 networking. OpenStack Networking bao gồm 1 danh sách các plug-in cho phép tương tác với các công nghệ mạng mã nguồn mở khác nhau, bao gồm routers, virtual switches, và software-defined networking (SDN) controllers.
 OpenStack Networking plug-in và agents:
 Plugs và unplugs ports, tạo network hoặc subnets, và cung cấp địa chỉ IP. Plug-in và agents được chọn khác nhau tùy thuộc và nhà cung cấp và công nghệ được sử dụng trong cloud cụ thể. Điều quan trọng cần đề cập là chỉ có thể sử dụng 1 plug-in trong 1 thời điểm.
 Messaging queue:
@@ -31,7 +31,7 @@ Openstack Dashboard : sử dụng web-based để quản lý vòng đời của 
 3. Các loại network trong Openstack Networking
 Trong Openstack có 3 loại network gồm : provider, Routed provider networks và self-service
 
-2.1 : Provider Network
+##2.1 : Provider Network
 Provider network cung cấp một network layer 2 tới các instance với sự hỗ trợ của DHCP và metadata. Mạng này kết nối hoặc map tới một network layer 2 có trong datacenter., thường kết hợp với 802.1Q ( VLAN )
 Provider network thường cung cấp sự đơn giản, hiệu năng và độ tin cậy. Chỉ có admin mới có thể quản lý các mạng này vì nó yêu cầu cấu hình hạng tầng mạng vật lý. Provider network chỉ có thể xử lý các frame layer-2 cho các kết nối đến instance, , do đó thiếu chức răng định tuyến và IP floating
 Nói chung, các thành phần trong Openstack Networking có thể xử lý các hoạt động layer-3 tác động đến hiệu năng và độ tin tưởng, provider network giúp chuyển các hoạt động layer-3 sang hạ tầng mạng vật lý
