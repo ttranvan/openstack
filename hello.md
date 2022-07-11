@@ -6,7 +6,8 @@
 **Chữ in đậm nè**
 
 *Đây là chữ in nghiêng*
-'Bo chỗ này lại'
+__Đây là chữ in nghiêng__
+> Bo chỗ này lại
 # II. Tiêu đề cấp II
 ### 4. Tiêu đề cấp 4
 - *Đây là đoạn cấu hình cần nổi bật*
