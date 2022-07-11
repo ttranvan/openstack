@@ -8,9 +8,9 @@
 # II. Tiêu đề cấp II
 ### 4. Tiêu đề cấp 4
 - *Đây là đoạn cấu hình cần nổi bật*
- - *thụt quả nữa cho máu*
+  - *thụt quả nữa cho máu*
 - *Đây là đoạn cấu hình cần nổi bật 1*
- - *thụt quả nữa cho máu 1*
+  - *thụt quả nữa cho máu 1*
 ```sh
 auto eth0
 iface eth0 inet static
