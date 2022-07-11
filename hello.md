@@ -28,7 +28,8 @@ https://github.com
 
 **Bảng nè**
 
-| X / Y | a | b | c | d|
+| X / Y | a | b | c | d |
+|-------|---|---|---|---|
 | hihi| 1 | 2 | 3 | 4|
 | haha| 6 | 7 | 3 | 4|
 | haha| 1 | 2 | 3 | 9|
