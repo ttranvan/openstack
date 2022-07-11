@@ -2,7 +2,9 @@
 ## 2. Tiêu đề cấp 2
 [Testurl](https://github.com)
 ### 3. Tiêu đề cấp 3
+
 **Chữ in đậm nè**
+
 *Đây là chữ in nghiêng*
 'Bo chỗ này lại'
 # II. Tiêu đề cấp II
@@ -25,6 +27,7 @@ https://github.com
 <img src=https://gifyu.com/image/SKUTs>
 
 **Bảng nè**
+
 | X / Y | a | b | c | d|
 | hihi| 1 | 2 | 3 | 4|
 | haha| 6 | 7 | 3 | 4|
