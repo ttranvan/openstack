@@ -25,9 +25,9 @@ dns-nameservers 8.8.8.8
 ###### 6. Tiêu đề cấp 6
 https://github.com
 
-'thử add ảnh'
+' thử  add bo '
 
-<img src=https://gifyu.com/image/SKUTs>
+<img src=https://s8.gifyu.com/images/imagebc72d77b7eda5cfb.png>
 
 **Bảng nè**
 
